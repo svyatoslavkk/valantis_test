@@ -1,0 +1,35 @@
+.card__list {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  align-items: center;
+  gap: 1rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  background-color: #393838;
+  border-radius: 0.5rem;
+  max-width: 216px;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  border-radius: 0.5rem;
+  border: 2px solid #545151;
+}
+
+.product__title {
+  color: #ddd;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.product__description {
+  color: #c8c2c2;
+  font-size: 14px;
+  font-weight: 500;
+}

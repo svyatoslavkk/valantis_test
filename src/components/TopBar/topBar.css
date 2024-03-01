@@ -1,0 +1,9 @@
+.top__bar {
+  width: 100%;
+}
+
+.select {
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  background-color: #393838;
+}
